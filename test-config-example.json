@@ -1,0 +1,13 @@
+{
+  "picBed": {
+    "current": "huaweicloud-obs",
+    "huaweicloud-obs": {
+      "endpoint": "obs.cn-north-4.myhuaweicloud.com",
+      "accessKeyId": "YOUR_ACCESS_KEY_ID",
+      "secretAccessKey": "YOUR_SECRET_ACCESS_KEY",
+      "bucket": "YOUR_BUCKET_NAME",
+      "path": "YOUR_PATH",
+      "customUrl": ""
+    }
+  }
+}

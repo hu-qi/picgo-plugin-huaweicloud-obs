@@ -4,9 +4,10 @@ node_modules/
 package-lock.json
 yarn.lock
 
-# Test files
+# Test files and downloads
 test-config.json
-downloaded_*.png
+tests/fixtures/
+tests/downloaded_*.png
 *.log
 
 # OS files

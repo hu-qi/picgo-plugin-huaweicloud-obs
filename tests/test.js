@@ -5,7 +5,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const handle = require('./src/uploader')
+const handle = require('../src/uploader')
 
 // Mock PicGo context
 const createMockContext = (config, imagePath) => {
@@ -46,7 +46,7 @@ async function testUpload() {
   console.log('=== PicGo Huawei Cloud OBS Plugin Test ===\n')
 
   // Load configuration
-  const configPath = path.join(__dirname, 'test-config.json')
+  const configPath = path.join(__dirname, '..', 'test-config.json')
   if (!fs.existsSync(configPath)) {
     console.error('Error: test-config.json not found')
     console.log('Please create test-config.json with your OBS credentials')

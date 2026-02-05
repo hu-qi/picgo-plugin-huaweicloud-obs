@@ -5,7 +5,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const handle = require('./src/uploader')
+const handle = require('../src/uploader')
 
 // Mock PicGo context for any file type
 const createMockContext = (config, filePath) => {
@@ -44,7 +44,7 @@ async function testFileUpload() {
   console.log('=== PicGo OBS Plugin - Multi-Format File Upload Test ===\n')
 
   // Load configuration
-  const configPath = path.join(__dirname, 'test-config.json')
+  const configPath = path.join(__dirname, '..', 'test-config.json')
   if (!fs.existsSync(configPath)) {
     console.error('Error: test-config.json not found')
     process.exit(1)
