@@ -3,7 +3,7 @@
 > A PicGo plugin for uploading images to Huawei Cloud OBS (Object Storage Service)
 
 [![npm version](https://badge.fury.io/js/picgo-plugin-huaweicloud-obs.svg)](https://badge.fury.io/js/picgo-plugin-huaweicloud-obs)
-[![license](https://img.shields.io/github/license/huqi/picgo-plugin-huaweicloud-obs.svg)](https://github.com/hu-qi/picgo-plugin-huaweicloud-obs/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/hu-qi/picgo-plugin-huaweicloud-obs.svg)](https://github.com/hu-qi/picgo-plugin-huaweicloud-obs/blob/main/LICENSE)
 
 ## Features
 
