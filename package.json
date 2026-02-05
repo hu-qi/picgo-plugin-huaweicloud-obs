@@ -1,0 +1,50 @@
+{
+  "name": "picgo-plugin-huaweicloud-obs",
+  "version": "1.0.0",
+  "description": "A PicGo plugin for uploading files to Huawei Cloud OBS (Object Storage Service)",
+  "main": "src/index.js",
+  "keywords": [
+    "picgo",
+    "picgo-plugin",
+    "huaweicloud",
+    "obs",
+    "upload",
+    "image-upload",
+    "file-upload",
+    "cloud-storage"
+  ],
+  "author": {
+    "name": "huqi",
+    "email": "huqi1024@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hu-qi/picgo-plugin-huaweicloud-obs"
+  },
+  "bugs": {
+    "url": "https://github.com/hu-qi/picgo-plugin-huaweicloud-obs/issues"
+  },
+  "homepage": "https://github.com/hu-qi/picgo-plugin-huaweicloud-obs#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "esdk-obs-nodejs": "^3.24.6"
+  },
+  "peerDependencies": {
+    "picgo": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/test.js",
+    "test:video": "node tests/test-video.js",
+    "verify": "node tests/verify-download.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

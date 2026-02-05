@@ -1,0 +1,30 @@
+# picgo-plugin-huaweicloud-obs
+
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test files
+test-config.json
+downloaded_*.png
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
