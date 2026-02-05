@@ -122,7 +122,7 @@ Common Huawei Cloud OBS endpoints:
 | Guangzhou  | `obs.cn-south-1.myhuaweicloud.com`     |
 | Hong Kong  | `obs.ap-southeast-1.myhuaweicloud.com` |
 
-For a complete list, see [Huawei Cloud OBS Endpoints](https://developer.huaweicloud.com/endpoint?OBS).
+For a complete list, see [Huawei Cloud OBS Endpoints](https://console.huaweicloud.com/apiexplorer/#/endpoint/OBS).
 
 ## Getting Access Keys
 
